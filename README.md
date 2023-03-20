@@ -91,13 +91,14 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 ```sh
   cd my-folder
-  git clone https://github.com/ritikarawat220/LEADERBOARD-.git
+  git clone https://github.com/yaredtekle022/Awesome_books.git
+  cd Awesome_books
 ```
 ### Install
 
 Install this project with:
 ```sh
-  cd Leaderboard
+  cd Awesome_books
   npm install
 ```
 
