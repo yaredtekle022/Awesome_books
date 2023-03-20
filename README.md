@@ -37,31 +37,16 @@
 
 **[Awesome_books]** This project is basic website that allows users to add/remove books from a list you can write the author and the title of the book to add them in array and it will display at the page.
 
-## 🛠 Built With <a name="HTML, CSS, Bootstrap and Javascript"></a>
+## 🛠 Built With <a name="HTML, CSS, and Javascript"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://html.com/#What_is_HTML">"index.html" and "about.html"</a></li>
-    <li><a href="https://html.com/css/#What_is_CSS">"style.css" and "about.css"</a></li>
+    <li><a href="https://html.com/#What_is_HTML">"index.html"</a></li>
+    <li><a href="https://html.com/css/#What_is_CSS">"style.css"</a></li>
     <li><a href="https://www.javascript.com/">"script.js"</a></li>
-    <li><a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/">Bootstrap</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://github.com/">Github</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
 
