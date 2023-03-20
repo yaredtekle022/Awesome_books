@@ -97,7 +97,6 @@ Clone this repository to your desired folder:
 
 Install this project with:
 ```sh
-  cd Awesome_books
   npm install
 ```
 
