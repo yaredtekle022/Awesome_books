@@ -140,8 +140,6 @@ To check for js errors run:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Abdel-Khafid SALAOU**
 
 - GitHub: [@githubhandle](https://github.com/adeola003)
