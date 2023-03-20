@@ -1,11 +1,7 @@
-# Awesome_books
-# Ruby-on-rails-bootcamp
 <a name="readme-top"></a>
 
 <div align="center">
 
-  <img src="assets/deola_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
   <h3><b>Awesome books</b></h3>
 
@@ -37,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Awesome_books] <a name="about-project"></a>
 
 > First pair programming project of the second module.
 
