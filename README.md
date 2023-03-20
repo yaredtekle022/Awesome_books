@@ -76,45 +76,63 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
-
+  
+  
 ### Prerequisites
 
 In order to run this project you need:
-
-- **Visual Studio Code**
-- **Git Bash**
+  Open terminal on the same folder of the project and run:
+```sh
+ npm install
+```
 
 ### Setup
 
 Clone this repository to your desired folder:
-
-- **cd your-folder**
-- **git clone https://github.com/yaredtekle022/Awesome_books.git**
-
+```sh
+  cd my-folder
+  git clone https://github.com/ritikarawat220/LEADERBOARD-.git
+```
 ### Install
 
 Install this project with:
-
-- **sh cd my-project gem install**
+```sh
+  cd Leaderboard
+  npm install
+```
 
 ### Usage
 
-To run the project, execute the following command:
+Run Dev Server (Port 3000)
 
-- **sh rails server**
+```
+  npm run dev
+```
+
+### Build for production
+
+```
+npm run build
+```
 
 ### Run tests
 
+- ### Linter Tests
+
 To run tests, run the following command:
 
-- **sh rails test/**
-
-### Deployment
-
-You can deploy this project using:
-
-- **GitHub Pages**
-
+To check for html errors run:
+```sh
+  npx hint .
+```
+To check for css errors run:
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
+To check for js errors run:
+```sh
+  npx eslint .
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
