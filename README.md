@@ -44,9 +44,9 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://html.com/#What_is_HTML">"index.html"</a></li>
-    <li><a href="https://html.com/css/#What_is_CSS">"style.css"</a></li>
-    <li><a href="https://www.javascript.com/">"script.js"</a></li>
+    <li><a href="https://html.com/#What_is_HTML">"HTML"</a></li>
+    <li><a href="https://html.com/css/#What_is_CSS">"CSS"</a></li>
+    <li><a href="https://www.javascript.com/">"script.Javascript"</a></li>
   </ul>
 </details>
 
