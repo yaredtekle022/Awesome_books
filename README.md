@@ -35,9 +35,7 @@
 
 # 📖 [Awesome_books] <a name="about-project"></a>
 
-> First pair programming project of the second module.
-
-**[Awesome_books]** is a project
+**[Awesome_books]** This project is basic website that allows users to add/remove books from a list you can write the author and the title of the book to add them in array and it will display at the page.
 
 ## 🛠 Built With <a name="HTML, CSS, Bootstrap and Javascript"></a>
 
