@@ -54,12 +54,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Responsiveness]**
-- **[Good_UI]**
-- **[Accessibility_passed]**
-- **[Accessibility_passed]**
-- **[No_linters_errors]**
-- **[Use_of_correct_github_workflow]**
+- [x] Create a collection that keeps a list of book
+- [x] Create a function to add a new book to the collection, with title and author.
+- [x] Create a function to remove a book from the collection.💯
+- [x] Display all books saved in the collection in the top part of the page.
+- [x] when a user clicks the "Add" button [A new book is added to the collection.] (The new book is displayed in the page)
+- [x] the data is preserved in the browser's memory by using localStorage.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
