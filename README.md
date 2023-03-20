@@ -103,10 +103,11 @@ Install this project with:
 
 ### Usage
 
-Run Dev Server (Port 3000)
 
 ```
-  npm run dev
+1. download the project from clone 
+2. open live server for the project
+3. You can see it in the browser
 ```
 
 <!-- ### Build for production
