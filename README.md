@@ -158,11 +158,9 @@ To check for js errors run:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [x] Add test to the project using jest 
+- [x] Add the live demo for the project
+- [x] Add new some features to the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,13 +186,13 @@ If you like this feel free to follow me on github and give this project a star..
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+Thanks to the code reviewers hat are helping us to improve and to all the microverse team.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+<!-- ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
@@ -205,7 +203,7 @@ If you like this feel free to follow me on github and give this project a star..
 - **[How_to_contact_you]**
 
   - [Follow_me_on_Github]
-
+ -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -213,8 +211,6 @@ If you like this feel free to follow me on github and give this project a star..
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
