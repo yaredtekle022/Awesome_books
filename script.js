@@ -16,10 +16,12 @@ class Book {
 
   removeBook(title) {
     const rm = new Book();
-    const index = booklist.findIndex((book) => book.title === title);
-    if (index !== -1) {
-      booklist.splice(index, 1);
-      rm.updateStorage(booklist);
+    for (let i = booklist.length - 1; i >= 0; i--) {
+      if (booklist[i].title === title) {
+        booklist.splice(i, 1);
+        rm.updateStorage(booklist);
+        break;
+      }
     }
   }
 
