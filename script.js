@@ -79,8 +79,3 @@ class Book {
     load.loadFromStorage();
   });
 
-
-
-// Storage
-
-
