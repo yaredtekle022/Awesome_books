@@ -1,3 +1,6 @@
+/* eslint-disable no-use-before-define */
+/* eslint-disable class-methods-use-this */
+
 let booklist = [];
 const submitBtn = document.getElementById('submit-btn');
 const form = document.getElementById('form');
@@ -5,22 +8,21 @@ const bookTitle = document.getElementById('book-title');
 const author = document.getElementById('author');
 
 class Book {
-
-   updateStorage(data) {
+  updateStorage(data) {
     localStorage.setItem('bookLists', JSON.stringify(data));
   }
-  
+
   // Remove title function
-  
-   removeBook(title) {
+
+  removeBook(title) {
     const rm = new Book();
     booklist = booklist.filter((book) => book.title !== title);
     rm.updateStorage(booklist);
   }
-  
+
   // Function to display the book's list
-  
-   displayBooks() {
+
+  displayBooks() {
     document.getElementById('book-list-container').innerHTML = '';
     booklist.forEach((book) => {
       const bookItem = document.createElement('div');
@@ -34,7 +36,7 @@ class Book {
       <hr/>
       `;
       booksTable.appendChild(bookItem);
-  
+
       const removeBtn = bookItem.querySelector('.remove');
       removeBtn.addEventListener('click', () => {
         const rm = new Book();
@@ -43,8 +45,8 @@ class Book {
       });
     });
   }
-  
-   loadFromStorage() {
+
+  loadFromStorage() {
     const ld = new Book();
     const storedBookList = localStorage.getItem('bookLists');
     if (storedBookList) {
@@ -52,9 +54,9 @@ class Book {
       ld.displayBooks();
     }
   }
-  
+
   // Function to add new books
-   addBooks(ttle, athr) {
+  addBooks(ttle, athr) {
     const bk = new Book();
     const book = { title: '', author: '' };
     book.title = ttle;
@@ -63,21 +65,20 @@ class Book {
     bk.updateStorage(booklist);
   }
 }
-  // Event listener to add books
-  
-  submitBtn.addEventListener('click', (e) => {
-    const book = new Book();
-    e.preventDefault();
-    if (bookTitle.value !== '' && author.value !== '') {
-      book.addBooks(bookTitle.value, author.value);
-      form.reset();
-      book.displayBooks();
-    } else {
-      alert('fill the required fields before submiting!');
-    }
-  });
-  document.addEventListener('DOMContentLoaded', () => {
-    const load = new Book();
-    load.loadFromStorage();
-  });
+// Event listener to add books
 
+submitBtn.addEventListener('click', (e) => {
+  const book = new Book();
+  e.preventDefault();
+  if (bookTitle.value !== '' && author.value !== '') {
+    book.addBooks(bookTitle.value, author.value);
+    form.reset();
+    book.displayBooks();
+  } else {
+    alert('fill the required fields before submiting!');
+  }
+});
+document.addEventListener('DOMContentLoaded', () => {
+  const load = new Book();
+  load.loadFromStorage();
+});
