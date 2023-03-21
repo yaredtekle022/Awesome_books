@@ -5,3 +5,12 @@ body {
 h1 {
   color: blueviolet;
 }
+
+.book-item div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-item:nth-child(even) {
+  background-color: rgb(180, 176, 176);
+}
