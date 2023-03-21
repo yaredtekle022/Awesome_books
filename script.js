@@ -16,8 +16,11 @@ class Book {
 
   removeBook(title) {
     const rm = new Book();
-    booklist = booklist.filter((book) => book.title !== title);
-    rm.updateStorage(booklist);
+    const index = booklist.findIndex((book) => book.title === title);
+    if (index !== -1) {
+      booklist.splice(index, 1);
+      rm.updateStorage(booklist);
+    }
   }
 
   // Function to display the book's list
