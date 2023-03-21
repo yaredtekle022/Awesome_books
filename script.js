@@ -27,10 +27,12 @@ class Book {
       const booksTable = document.getElementById('book-list-container');
       bookItem.classList.add('book-item');
       bookItem.innerHTML = `
-          <p>Book title: ${book.title}</p>
-          <p>Author: ${book.author}</p>
+      <div>
+          <p>${book.title}, by ${book.author}</p>
           <button class="remove" id=${book.title}>Remove</button>
-        <hr/>`;
+      </div>
+      <hr/>
+      `;
       booksTable.appendChild(bookItem);
   
       const removeBtn = bookItem.querySelector('.remove');
