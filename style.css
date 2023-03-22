@@ -2,6 +2,12 @@ body {
   font-family: sans-serif;
 }
 
+section{
+  display: none;
+  margin-top: 30px;
+
+}
+
 h1 {
   color: blueviolet;
 }
@@ -68,7 +74,7 @@ a {
 }
 
 .list-link,
-.add-link,
+.add-class,
 .contact-link {
   font-weight: bold;
 }

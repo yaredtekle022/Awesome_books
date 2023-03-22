@@ -28,7 +28,7 @@ class Book {
   // Function to display the book's list
 
   displayBooks() {
-    document.getElementById('book-list-container').innerHTML = '';
+    document.getElementById('book-list-container').innerHTML = '<h2 class="list-title">List of books</h2>';
     booklist.forEach((book) => {
       const bookItem = document.createElement('div');
       const booksTable = document.getElementById('book-list-container');
@@ -111,6 +111,7 @@ addList.addEventListener('click', (e) => {
   allSection.style.display = 'none';
   inputSection.style.display = 'block';
   contactSection.style.display = 'none';
+  document.querySelector('.adding-books').style.display = 'block';
 });
 
 contactList.addEventListener('click', (e) => {
