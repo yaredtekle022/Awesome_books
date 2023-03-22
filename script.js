@@ -95,28 +95,27 @@ const addList = document.querySelector('.add-book');
 const contactList = document.querySelector('.contact-list');
 
 const allSection = document.getElementById('book-list-container');
-const inputSection = document.getElementById("form");
+const inputSection = document.getElementById('form');
 const contactSection = document.querySelector('.contact');
 
 bookList.addEventListener('click', (e) => {
   e.preventDefault();
-  
-   allSection.style.display = 'flex';
-    inputSection.style.display = 'none';
-    contactSection.style.display = 'none';
-  });
+
+  allSection.style.display = 'block';
+  inputSection.style.display = 'none';
+  contactSection.style.display = 'none';
+});
 
 addList.addEventListener('click', (e) => {
   e.preventDefault();
   allSection.style.display = 'none';
   inputSection.style.display = 'block';
   contactSection.style.display = 'none';
-  
 });
 
-contactList.addEventListener('click', (e) =>{
-e.preventDefault();
-allSection.style.display = 'none';
+contactList.addEventListener('click', (e) => {
+  e.preventDefault();
+  allSection.style.display = 'none';
   inputSection.style.display = 'none';
   contactSection.style.display = 'flex';
 });
