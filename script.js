@@ -98,13 +98,13 @@ const allSection = document.getElementById('book-list-container');
 const inputSection = document.getElementById("form");
 const contactSection = document.querySelector('.contact');
 
-
 bookList.addEventListener('click', (e) => {
-e.preventDefault;
-allSection.style.display = 'block';
-inputSection.style.display = 'none';
-contactSection.style.display = 'none';
-});
+  e.preventDefault();
+  
+   allSection.style.display = 'flex';
+    inputSection.style.display = 'none';
+    contactSection.style.display = 'none';
+  });
 
 addList.addEventListener('click', (e) => {
   e.preventDefault();
