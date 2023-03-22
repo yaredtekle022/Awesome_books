@@ -8,14 +8,23 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1> Awesome Books</h1>
+   <nav>
+    <div class="logo">
+        <a href="index.html">Awesome books</a>
+    </div>
+    <ul class="list-items">
+        <li class="book-list"><a class="list-link" href="">List</a></li>
+        <li class="add-book"><a class="add-class" href="">Add new</a></li>
+        <li class="contact-list"><a class="contact-link" href="">Contact</a></li>
+    </ul>
+   </nav>
 <section id="book-list-container">
-    <h2 class="list-title">List of books</h2>
 
 </section>
 <section class="adding-books">
-    <h2>Add a new book</h2>
+    
     <form id="form" action="">
+        <h2>Add a new book</h2>
         <div class="form-group">
             <input id="book-title" type="text" placeholder="Title" required name="title">
         </div>
@@ -25,6 +34,21 @@
         <button id="submit-btn" type="submit">Add</button>
     </form>
 </section>
+
+<section class="contact">
+    <h1>Contact information</h1>
+    <p>Do you have any question or you want to say You can reach out to us!</p>
+    <ul>
+        <li>Our email: Books@mail.com</li>
+        <li>Our phone number: +233434343</li>
+        <li>Our adress one: Addis Ababa, Ethiopia</li>
+        <li>Our adress two: </li>
+    </ul>
+</section>
+<footer>
+   <h3 class="copy-right">Copyright   ...</h3>
+</footer>
+
 <script src="script.js"></script>
 </body>
 </html>

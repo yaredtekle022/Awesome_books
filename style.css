@@ -2,6 +2,20 @@ body {
   font-family: sans-serif;
 }
 
+section {
+  display: none;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
 h1 {
   color: blueviolet;
 }
@@ -11,6 +25,91 @@ h1 {
   justify-content: space-between;
 }
 
+.books-div {
+  display: flex;
+  justify-content: space-between;
+}
+
 .book-item:nth-child(even) {
   background-color: rgb(180, 176, 176);
+}
+
+.form-group {
+  margin-bottom: 15px;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border: 1px solid black;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 40px;
+  box-shadow: 4px 4px black;
+}
+
+.logo {
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.list-items {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.list-link,
+.add-link {
+  border-right: 1.75px solid black;
+  padding-right: 5px;
+}
+
+.list-link,
+.add-class,
+.contact-link {
+  font-weight: bold;
+}
+
+.contact ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#form {
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer {
+  border: 1px solid black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  box-shadow: 4px 4px black;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 40px;
+  margin-top: 100px;
+}
+
+footer h3 {
+  margin: 5px 10px;
 }
