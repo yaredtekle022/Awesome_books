@@ -66,3 +66,32 @@ a {
 .contact-link {
   font-weight: bold;
 }
+
+.contact ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  padding: 20px 0;
+  width: 45%;
+}
+
+
+footer {
+  border: 1px solid black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  box-shadow: 4px 4px black;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 40px;
+  margin-top: 100px;
+}
+
+footer h3 {
+  margin: 5px 10px;
+}

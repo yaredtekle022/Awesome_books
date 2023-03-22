@@ -34,7 +34,7 @@ class Book {
       const booksTable = document.getElementById('book-list-container');
       bookItem.classList.add('book-item');
       bookItem.innerHTML = `
-      <div>
+      <div class="container">
           <p>${book.title}, by ${book.author}</p>
           <button class="remove" id=${book.title}>Remove</button>
       </div>
@@ -90,4 +90,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // nav bar
 
-const bookList = document.getElementById('book-list-container');
+const bookList = document.querySelector('.book-list');
+const addList = document.querySelector('.add-book');
+const contactList = document.querySelector('.contact-list');
+
+const allSection = document.getElementById('book-list-container');
+const inputSection = document.getElementById("form");
+const contactSection = document.querySelector('.contact');
+
+
+bookList.addEventListener('click', (e) => {
+e.preventDefault;
+allSection.style.display = 'block';
+inputSection.style.display = 'none';
+contactSection.style.display = 'none';
+});
+
+addList.addEventListener('click', (e) => {
+  e.preventDefault();
+  allSection.style.display = 'none';
+  inputSection.style.display = 'block';
+  contactSection.style.display = 'none';
+  
+});
+
+contactList.addEventListener('click', (e) =>{
+e.preventDefault();
+allSection.style.display = 'none';
+  inputSection.style.display = 'none';
+  contactSection.style.display = 'flex';
+});
