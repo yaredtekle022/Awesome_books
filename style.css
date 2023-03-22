@@ -5,6 +5,15 @@ body {
 section {
   display: none;
   margin-top: 30px;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
 }
 
 h1 {
@@ -25,16 +34,15 @@ h1 {
   background-color: rgb(180, 176, 176);
 }
 
-ul {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-between;
+.form-group {
+  margin-bottom: 15px;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
 }
 
-li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+input {
+  width: 100%;
 }
 
 nav {
@@ -83,9 +91,9 @@ a {
   flex-direction: column;
 }
 
-.form {
+#form {
   padding: 20px 0;
-  width: 45%;
+  text-align: center;
 }
 
 footer {

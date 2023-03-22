@@ -118,5 +118,5 @@ contactList.addEventListener('click', (e) => {
   e.preventDefault();
   allSection.style.display = 'none';
   inputSection.style.display = 'none';
-  contactSection.style.display = 'flex';
+  contactSection.style.display = 'block';
 });
