@@ -14,3 +14,55 @@ h1 {
 .book-item:nth-child(even) {
   background-color: rgb(180, 176, 176);
 }
+
+ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border: 1px solid black;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 40px;
+  box-shadow: 4px 4px black;
+}
+
+.logo {
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.list-items {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.list-link,
+.add-link {
+  border-right: 1.75px solid black;
+  padding-right: 5px;
+}
+
+.list-link,
+.add-link,
+.contact-link {
+  font-weight: bold;
+}

@@ -87,3 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const load = new Book();
   load.loadFromStorage();
 });
+
+// nav bar
+
+const bookList = document.getElementById('book-list-container');
